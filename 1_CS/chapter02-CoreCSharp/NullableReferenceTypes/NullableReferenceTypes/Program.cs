@@ -25,11 +25,6 @@ string? publisher = b2.Publisher;
 class Book
 {
     public Book(string title) => Title = title;
-    public Book(string title, string? pub)
-    {
-        Title = title;
-        Publisher = pub;
-    }
 
     public string Title { get; set; }
     public string? Publisher { get; set; }
