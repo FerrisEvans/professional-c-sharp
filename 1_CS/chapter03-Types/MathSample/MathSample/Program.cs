@@ -29,3 +29,27 @@ public class Math
     public static int GetSquareOf(int x) => x * x;
 }
 
+public class Book
+{
+    public Book(string title, string publisher) =>
+        (Title, Publisher) = (title, publisher);
+
+    public string Title { get; }
+    public string Publisher { get; }
+
+}
+
+public class Car
+{
+    private string _description;
+    private uint _nWheels;
+    public Car(string description, uint nWheels)
+    {
+        _description = description;
+        _nWheels = nWheels;
+    }
+
+    public Car(string description) : this(description, 4)
+    { }
+
+}
