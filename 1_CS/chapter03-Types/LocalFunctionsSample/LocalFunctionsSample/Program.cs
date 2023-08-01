@@ -15,10 +15,9 @@ static void LocalFunctionWithClosure()
 {
     int z = 3;
 
-
-    int Add(int x, int y) => x + y + z;
-
     int result = Add(3, 7);
     Console.WriteLine($"called the local function with this result: {result}");
+
+    int Add(int x, int y) => x + y + z;
 }
 LocalFunctionWithClosure();
