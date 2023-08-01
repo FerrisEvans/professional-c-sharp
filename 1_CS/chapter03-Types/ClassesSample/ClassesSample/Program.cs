@@ -1,5 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Book b1 = new("Professional C#")
+{
+    No = 2
+};
+
+Console.WriteLine($"book's title is {b1.Title} and NO. is {b1.No}");
 
 public class Person
 {
