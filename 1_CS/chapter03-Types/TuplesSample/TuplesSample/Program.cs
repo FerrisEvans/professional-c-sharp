@@ -19,4 +19,30 @@ Book book = new Book("Professional C#", "Wrox Press");
 var tuple5 = (ANumber: 42, book.Title);
 Console.WriteLine(tuple5.Title);
 
+void TuplesDeconstruction()
+{
+    var tuple1 = (AString: "magic", Number: 42, Book: new Book("Professional C#", "Wrox Press"));
+    (string aString, int number, Book book) = tuple1;
+
+    Console.WriteLine($"a string: {aString}, number: {number}, book: {book}");
+    (_, _, var book1) = tuple1;
+    Console.WriteLine(book1.Title);
+}
+TuplesDeconstruction();
+
+static (int result, int remainder) Divide(int dividend, int divisor)
+{
+    int result = dividend / divisor;
+    int remainder = dividend % divisor;
+    return (result, remainder);
+}
+
+static void ReturningTuples()
+{
+    (int result, int remainder) = Divide(7, 2);
+    Console.WriteLine($"7 / 2 - result: {result}, remainder: {remainder}");
+}
+ReturningTuples();
+
+
 public record Book(string Title, string Publisher);
