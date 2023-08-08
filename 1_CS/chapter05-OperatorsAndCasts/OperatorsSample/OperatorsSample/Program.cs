@@ -52,13 +52,14 @@ Console.WriteLine(c);
 void ShowPerson(Person? p)
 {
     //if (p is null) return;
-    string firstName = p?.FirstName;
+    string? firstName = p?.FirstName;
     int? age = p?.Age;
+    int age1 = p?.Age ?? 0;
 }
 
 public class P119
 {
-    private MyClass _val;
+    private MyClass? _val;
     public MyClass Val
     {
         //get => _val ?? (_val = new MyClass());
@@ -66,7 +67,7 @@ public class P119
     }
 }
 
-public record Person (string FirstName, int? Age);
+public record Person (string? FirstName, int? Age);
 
 // 类不能使用sizeof运算符
 public readonly struct Point
