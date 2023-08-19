@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegatesUsingInvocationList", "MulticastDelegatesUsingInvocationList\MulticastDelegatesUsingInvocationList.csproj", "{6C16C4F4-3798-4B17-8431-25FED31324AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C16C4F4-3798-4B17-8431-25FED31324AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C16C4F4-3798-4B17-8431-25FED31324AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C16C4F4-3798-4B17-8431-25FED31324AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C16C4F4-3798-4B17-8431-25FED31324AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
