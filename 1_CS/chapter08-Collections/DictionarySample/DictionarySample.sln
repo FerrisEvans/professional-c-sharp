@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionarySample", "DictionarySample\DictionarySample.csproj", "{DABAD740-E4EB-43F7-AA1A-6FF7DDAE9868}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DABAD740-E4EB-43F7-AA1A-6FF7DDAE9868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABAD740-E4EB-43F7-AA1A-6FF7DDAE9868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABAD740-E4EB-43F7-AA1A-6FF7DDAE9868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABAD740-E4EB-43F7-AA1A-6FF7DDAE9868}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
