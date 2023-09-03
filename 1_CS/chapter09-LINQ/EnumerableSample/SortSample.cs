@@ -1,5 +1,3 @@
-using DataLib;
-
 namespace EnumerableSample;
 
 public class SortSample

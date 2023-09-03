@@ -1,2 +1,9 @@
 ﻿global using DataLib;
-global using EnumerableSample;
+
+internal class Program
+{
+    public static void Main(string[] args)
+    {
+        
+    }
+}
