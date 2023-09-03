@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLib", "DataLib\DataLib.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqIntro", "LinqIntro\LinqIntro.csproj", "{A60A1962-A68B-4DF5-9DED-6D137022C283}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerableSample", "EnumerableSample\EnumerableSample.csproj", "{737B3B23-53A9-4296-A06A-6BB609DB10FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{A60A1962-A68B-4DF5-9DED-6D137022C283}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A60A1962-A68B-4DF5-9DED-6D137022C283}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A60A1962-A68B-4DF5-9DED-6D137022C283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737B3B23-53A9-4296-A06A-6BB609DB10FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737B3B23-53A9-4296-A06A-6BB609DB10FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737B3B23-53A9-4296-A06A-6BB609DB10FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737B3B23-53A9-4296-A06A-6BB609DB10FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
