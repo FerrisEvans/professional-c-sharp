@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerableSample", "Enumera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelLinqSample", "ParallelLinqSample\ParallelLinqSample.csproj", "{F58FE495-5A0C-4777-8678-333EC248DC29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionTreeSample", "ExpressionTreeSample\ExpressionTreeSample.csproj", "{94256DB0-9AB3-4148-AB8C-D2B21430C865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{F58FE495-5A0C-4777-8678-333EC248DC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F58FE495-5A0C-4777-8678-333EC248DC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F58FE495-5A0C-4777-8678-333EC248DC29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94256DB0-9AB3-4148-AB8C-D2B21430C865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94256DB0-9AB3-4148-AB8C-D2B21430C865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94256DB0-9AB3-4148-AB8C-D2B21430C865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94256DB0-9AB3-4148-AB8C-D2B21430C865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
