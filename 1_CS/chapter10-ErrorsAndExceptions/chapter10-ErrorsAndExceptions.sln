@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionFilters", "Excepti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReshrowExceptions", "ReshrowExceptions\ReshrowExceptions.csproj", "{C92CE600-BD0E-485E-A319-A15710BF92AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolicitColdCall", "SolicitColdCall\SolicitColdCall.csproj", "{A5A6EFA2-3539-4028-B910-4B95D0CE039D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{C92CE600-BD0E-485E-A319-A15710BF92AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C92CE600-BD0E-485E-A319-A15710BF92AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C92CE600-BD0E-485E-A319-A15710BF92AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A6EFA2-3539-4028-B910-4B95D0CE039D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A6EFA2-3539-4028-B910-4B95D0CE039D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A6EFA2-3539-4028-B910-4B95D0CE039D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A6EFA2-3539-4028-B910-4B95D0CE039D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
