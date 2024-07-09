@@ -8,14 +8,14 @@
 
 # Build results
 
-[Dd]ebug/
-[Rr]elease/
-x64/
-[Bb]in/
-[Oo]bj/
+**/[Dd]ebug/
+**/[Rr]elease/
+**/x64/
+**/[Bb]in/
+**/[Oo]bj/
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
+**/[Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
 *_i.c
@@ -40,7 +40,6 @@ x64/
 *.vssscc
 .builds
 *.pidb
-*.log
 *.svclog
 *.scc
 
@@ -61,12 +60,12 @@ ipch/
 *.gpState
 
 # ReSharper is a .NET coding add-in
-_ReSharper*/
+**/_ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
 # Click-Once directory
-publish/
+**/publish/
 
 # Publish Web Output
 *.Publish.xml
@@ -75,21 +74,21 @@ publish/
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
-packages/
+**/packages/
 ## TODO: If the tool you use requires repositories.config, also uncomment the next line
 !packages/repositories.config
 
 # Windows Azure Build Output
-csx/
+**/csx/
 *.build.csdef
 
 # Windows Store app package directory
-AppPackages/
+**/AppPackages/
 
 # Others
-sql/
+**/sql/
 *.Cache
-ClientBin/
+**/ClientBin/
 [Ss]tyle[Cc]op.*
 ![Ss]tyle[Cc]op.targets
 ~$*
@@ -100,12 +99,12 @@ ClientBin/
 *.publishsettings
 
 # RIA/Silverlight projects
-Generated_Code/
+**/Generated_Code/
 
 # Backup & report files from converting an old project file to a newer
 # Visual Studio version. Backup files are not needed, because we have git ;-)
-_UpgradeReport_Files/
-Backup*/
+**/_UpgradeReport_Files/
+**?Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
 
@@ -125,7 +124,7 @@ ehthumbs.db
 Desktop.ini
 
 # Recycle Bin used on file shares
-$RECYCLE.BIN/
+**?$RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
@@ -151,23 +150,23 @@ _NCrunch*
 mono_crash.*
 
 # Build results
-[Dd]ebugPublic/
-[Rr]eleases/
-x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Ll]og/
-[Ll]ogs/
+**/[Dd]ebugPublic/
+**/[Rr]eleases/
+**/x86/
+**/[Aa][Rr][Mm]/
+**/[Aa][Rr][Mm]64/
+**/bld/
+**/[Ll]og/
+**/[Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
-.vs/
-.idea/
+**/.vs/
+**/.idea/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
 # Visual Studio 2017 auto generated files
-Generated\ Files/
+**/Generated\ Files/
 
 # MSTest test Results
 
@@ -177,17 +176,17 @@ TestResult.xml
 nunit-*.xml
 
 # Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
+**/[Dd]ebugPS/
+**/[Rr]eleasePS/
 dlldata.c
 
 # Benchmark Results
-BenchmarkDotNet.Artifacts/
+**/BenchmarkDotNet.Artifacts/
 
 # .NET Core
 project.lock.json
 project.fragment.lock.json
-artifacts/
+**/artifacts/
 
 # StyleCop
 StyleCopReport.xml
@@ -213,7 +212,7 @@ _Chutzpah*
 *.e2e
 
 # TFS 2012 Local Workspace
-$tf/
+**/$tf/
 
 # Guidance Automation Toolkit
 
@@ -240,16 +239,16 @@ nCrunchTemp_*
 
 # MightyMoose
 *.mm.*
-AutoTest.Net/
+**/AutoTest.Net/
 
 # Web workbench (sass)
-.sass-cache/
+**/.sass-cache/
 
 # Installshield output folder
-[Ee]xpress/
+**/[Ee]xpress/
 
 # DocProject is a documentation generator add-in
-DocProject/buildhelp/
+**/DocProject/buildhelp/
 DocProject/Help/*.HxT
 DocProject/Help/*.HxC
 DocProject/Help/*.hhc
@@ -268,7 +267,7 @@ DocProject/Help/html
 # Microsoft Azure Web App publish settings. Comment the next line if you want to
 # checkin your Azure Web App publish settings, but sensitive information contained
 # in these scripts will be unencrypted
-PublishScripts/
+**/PublishScripts/
 
 # NuGet Packages
 *.nupkg
@@ -277,7 +276,7 @@ PublishScripts/
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
 # except build/, which is used as an MSBuild target.
-!**/[Pp]ackages/build/
+**/!**/[Pp]ackages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/[Pp]ackages/repositories.config
 # NuGet v3's project.json files produces more ignorable files
@@ -287,11 +286,11 @@ PublishScripts/
 # Microsoft Azure Build Output
 
 # Microsoft Azure Emulator
-ecf/
-rcf/
+**/ecf/
+**/rcf/
 
 # Windows Store app package directories and files
-BundleArtifacts/
+**/BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
 *.appx
@@ -302,7 +301,7 @@ _pkginfo.txt
 # files ending in .cache can be ignored
 *.[Cc]ache
 # but keep track of directories ending in .cache
-!?*.[Cc]ache/
+**/!?*.[Cc]ache/
 
 # Others
 *.dbproj.schemaview
@@ -323,7 +322,7 @@ orleans.codegen.cs
 # Backup & report files from converting an old project file
 # to a newer Visual Studio version. Backup files are not needed,
 # because we have git ;-)
-ServiceFabricBackup/
+**/ServiceFabricBackup/
 *.rptproj.bak
 
 # SQL Server files
@@ -341,7 +340,7 @@ ServiceFabricBackup/
 *- [Bb]ackup ([0-9][0-9]).rdl
 
 # Microsoft Fakes
-FakesAssemblies/
+**/FakesAssemblies/
 
 # GhostDoc plugin setting file
 *.GhostDoc.xml
@@ -369,16 +368,16 @@ _Pvt_Extensions
 
 # Paket dependency manager
 .paket/paket.exe
-paket-files/
+**/paket-files/
 
 # FAKE - F# Make
-.fake/
+**/.fake/
 
 # CodeRush personal settings
 .cr/personal
 
 # Python Tools for Visual Studio (PTVS)
-__pycache__/
+**/__pycache__/
 *.pyc
 
 # Cake - Uncomment if you are using it
@@ -398,10 +397,10 @@ __pycache__/
 *.xsd.cs
 
 # OpenCover UI analysis results
-OpenCover/
+**/OpenCover/
 
 # Azure Stream Analytics local run output
-ASALocalRun/
+**/ASALocalRun/
 
 # MSBuild Binary and Structured Log
 *.binlog
@@ -410,17 +409,17 @@ ASALocalRun/
 *.nvuser
 
 # MFractors (Xamarin productivity tool) working folder
-.mfractor/
+**/.mfractor/
 
 # Local History for Visual Studio
-.localhistory/
+**/.localhistory/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
-MigrationBackup/
+**/MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
-.ionide/
-.idea
+**/.ionide/
+**/.idea
